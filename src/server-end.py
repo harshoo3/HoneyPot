@@ -22,9 +22,9 @@ class Server:
 		def __threaded(c, client_ip):
 			self.log.info("threaded-in")
 			start = datetime.now()
-			c.recv(4096)
+			# c.recv(4096)
 			# # print(c.recv(4096).decode("utf-8"))
-			sent = c.send(b'username: ')
+			c.send(b'username: ')
 			# # c.recv(4096)
 			# # print(c.recv(4096).decode("utf-8"))
 			user_term = str(c.recv(1024).decode('utf-8'))

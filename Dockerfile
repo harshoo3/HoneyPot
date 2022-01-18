@@ -8,4 +8,4 @@ RUN pip install -r requirements.txt
 
 COPY src/ .
 
-CMD ["python3", "./runner.py"]
+CMD ["python3", "./server-end.py"]
