@@ -16,7 +16,7 @@ A Python Implementation of a basic honey pot, that detects the presence of any a
 ## Demonstration 
 
 ### Server (left) and Client(right) ends of the network
-<img src="./img/demo.png" height="125" width="800">
+<img src="./img/demo.png" height="150" width="950">
 
 Intrusion activities of the attacker.        |  How the activity of the attacker will be logged.
 :-------------------------:|:-------------------------:
